@@ -18,13 +18,12 @@ while True:
     for i in range(let):
         pw+=(letters[random.randrange(len(letters))])
     
-    
-    
     if let+n+sym<4:
         print('The length of the password is too short:')
     else:
         a=''.join(random.sample(pw,len(pw)))
         print(a)
+    
     repeat=input('Would you like to try again? Yy/Nn')
     if repeat in 'Nn':
         print('Thank you for using our password generator!')
