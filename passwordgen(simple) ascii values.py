@@ -25,4 +25,5 @@ while True:
         print(pw)
     repeat=input('Would you like to try again? Yy/Nn:')
     if repeat in 'Nn':
+        print('Thank you for using our password generator!')
         break
